@@ -10,19 +10,20 @@ html {
 }
 
 body {
-  height: 100%;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
-  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Livvic", "Times New Roman", sans-serif;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .container {
-  max-width: 1148px;
-  padding: 0 24px;
+  width: 90vw;
+  padding: 0 10px;
   margin-left: auto;
   margin-right: auto;
 }
